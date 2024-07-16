@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="google-site-verification" content="MJMnAfVgR81kGnyH17HHRaPOqc2mtlJZm4FU1UzLwCw" />
+  <meta name="google-site-verification" content="Wj8kmqLDou7goEh6BlOckRK-ta1AC5b8wYZ6AyyvL9w" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Xaver Technologies - Empowering Tomorrow's Innovations Today">
   <meta name="keywords" content="Xaver Technologies, technology solutions, innovation, quality assurance, global impact">
