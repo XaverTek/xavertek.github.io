@@ -1,7 +1,8 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="google-site-verification" content="Wj8kmqLDou7goEh6BlOckRK-ta1AC5b8wYZ6AyyvL9w" />
+  <meta name="google-site-verification" content="MJMnAfVgR81kGnyH17HHRaPOqc2mtlJZm4FU1UzLwCw" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Xaver Technologies - Empowering Tomorrow's Innovations Today">
   <meta name="keywords" content="Xaver Technologies, technology solutions, innovation, quality assurance, global impact">
@@ -117,7 +118,8 @@
   <div class="container mt-5">
     <section id="home">
       <h1>Welcome to XaverTek Technologies</h1>
-      <img src="image.png" class="company-logo" alt="Company Logo">
+      <img src="file:///C:/Users/YourUsername/Desktop/PIUS/XAVERTEK.PNG" class="company-logo" alt="Company Logo">
+
       <p>Empowering Tomorrow's Innovations Today</p>
       <p>Welcome to Xaver Technologies, where innovation meets excellence. We are at the forefront of cutting-edge technology solutions, dedicated to transforming industries and empowering businesses worldwide. Explore how our passion for innovation drives us to redefine what's possible in:</p>
       <ul>
@@ -179,37 +181,73 @@
     </section>
     
     <section id="our-staff">
-      <h2>Our Staff</h2>
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="staff1.jpg" class="card-img-top" alt="Staff Member">
-            <div class="card-body">
-              <h5 class="card-title">Chelangat Pius Starling</h5>
-              <p class="card-text">Position: Co-founder/Chief Executive Officer</p>
+        <h2>Our Staff</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="staff1.jpg" class="card-img-top" alt="Staff Member">
+              <div class="card-body">
+                <h5 class="card-title">Chelangat Pius Starling</h5>
+                <p class="card-text">Position: Co-founder/Chief Executive Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="staff2.jpg" class="card-img-top" alt="Staff Member">
+              <div class="card-body">
+                <h5 class="card-title">Nsabimana Shadrach</h5>
+                <p class="card-text">Position: Senior Graphics Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="staff3.jpg" class="card-img-top" alt="Staff Member">
+              <div class="card-body">
+                <h5 class="card-title">Mazune Jessy</h5>
+                <p class="card-text">Position: Chief Technology Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="staff4.jpg" class="card-img-top" alt="Staff Member">
+              <div class="card-body">
+                <h5 class="card-title">Mukono Hillary</h5>
+                <p class="card-text">Position: Chief Operating Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="staff5.jpg" class="card-img-top" alt="Staff Member">
+              <div class="card-body">
+                <h5 class="card-title">Nanteza Sharifa</h5>
+                <p class="card-text">Position: Chief Financial Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="staff6.jpg" class="card-img-top" alt="Staff Member">
+              <div class="card-body">
+                <h5 class="card-title">Ssebata Aaron</h5>
+                <p class="card-text">Position: Marketing Executive Officer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="staff7.jpg" class="card-img-top" alt="Staff Member">
+              <div class="card-body">
+                <h5 class="card-title">Sanyu Martin Titus</h5>
+                <p class="card-text">Position: information and technology officer </p>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="staff2.jpg" class="card-img-top" alt="Staff Member">
-            <div class="card-body">
-              <h5 class="card-title">Nsabimana Shadrach</h5>
-              <p class="card-text">Position: Senior Graphics Designer</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="staff3.jpg" class="card-img-top" alt="Staff Member">
-            <div class="card-body">
-              <h5 class="card-title">Gertrude Dianah Muhumua</h5>
-              <p class="card-text">Position: Senior Software Engineer</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
     
     <section id="contact">
       <h2>Contact Us</h2>
