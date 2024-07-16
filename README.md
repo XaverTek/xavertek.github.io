@@ -132,6 +132,7 @@
     <section id="about">
       <h2>About Us</h2>
       <p>XaverTek Technologies is dedicated to delivering cutting-edge technology solutions that empower businesses and transform industries. Our commitment to innovation and quality assurance sets us apart, ensuring that every solution we deliver meets the highest standards of excellence.</p>
+      <p>.</p>
       <p>Discover how we harness the power of technology to drive global impact, making a difference in businesses and communities worldwide.</p>
     </section>
     
@@ -252,7 +253,7 @@
       <h2>Contact Us</h2>
       <div class="row">
         <div class="col-md-6">
-          <form id="contactForm" action="mailto:info@example.com" method="POST" enctype="text/plain">
+          <form id="contactForm" action="mailto:xavertekofficial@gmail.com" method="POST" enctype="text/plain">
             <div class="form-group">
               <label for="name">Name:</label>
               <input type="text" class="form-control" id="name" name="name" required>
@@ -272,6 +273,8 @@
           <h3>Visit Us</h3>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.423757842412!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zYOUR_LOCATION!5e0!3m2!1sen!2sus!4v1623801621902!5m2!1sen!2sus" 
                   width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                  find us in kampala {kololo york vile estate}
         </div>
       </div>
     </section>
