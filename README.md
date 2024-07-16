@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -66,6 +67,13 @@
     .btn-outline-light:hover {
       color: #17a2b8;
       background-color: transparent;
+    }
+    .testimonial {
+      margin-bottom: 30px;
+    }
+    .carousel-item img {
+      width: 100%;
+      height: auto;
     }
   </style>
 </head>
@@ -196,44 +204,8 @@
           <div class="card">
             <img src="staff3.jpg" class="card-img-top" alt="Staff Member">
             <div class="card-body">
-              <h5 class="card-title">Mazune Jessy</h5>
-              <p class="card-text">Position: Chief Technology Officer</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="staff4.jpg" class="card-img-top" alt="Staff Member">
-            <div class="card-body">
-              <h5 class="card-title">Mukono Hillary</h5>
-              <p class="card-text">Position: Chief Operating Officer</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="staff5.jpg" class="card-img-top" alt="Staff Member">
-            <div class="card-body">
-              <h5 class="card-title">Nanteza Sharifa</h5>
-              <p class="card-text">Position: Chief Financial Officer</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="staff6.jpg" class="card-img-top" alt="Staff Member">
-            <div class="card-body">
-              <h5 class="card-title">Ssebata Aaron</h5>
-              <p class="card-text">Position: Marketing Executive Officer</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src="staff7.jpg" class="card-img-top" alt="Staff Member">
-            <div class="card-body">
-              <h5 class="card-title">Sanyu Martin Titus</h5>
-              <p class="card-text">Position: information and technology officer </p>
+              <h5 class="card-title">Gertrude Dianah Muhumua</h5>
+              <p class="card-text">Position: Senior Software Engineer</p>
             </div>
           </div>
         </div>
@@ -242,123 +214,127 @@
     
     <section id="contact">
       <h2>Contact Us</h2>
-      <p>Get in touch with our team to learn more about our services and solutions.</p>
-      <form id="contactForm">
-        <div class="form-group">
-          <label for="name">Your Name</label>
-          <input type="text" class="form-control" id="name" name="name" required>
+      <div class="row">
+        <div class="col-md-6">
+          <form id="contactForm" action="mailto:info@example.com" method="POST" enctype="text/plain">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="email">Your Email</label>
-          <input type="email" class="form-control" id="email" name="email" required>
+        <div class="col-md-6">
+          <h3>Visit Us</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.423757842412!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zYOUR_LOCATION!5e0!3m2!1sen!2sus!4v1623801621902!5m2!1sen!2sus" 
+                  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+      </div>
+    </section>
+  </div>
+  
+  <!-- Testimonials -->
+  <div class="container mt-5">
+    <section id="testimonials">
+      <h2>Client Testimonials</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="testimonial">
+            <blockquote>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
+            </blockquote>
+            <p class="testimonial-author">John Doe, CEO of Company X</p>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+        <div class="col-md-6">
+          <div class="testimonial">
+            <blockquote>
+              "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+            </blockquote>
+            <p class="testimonial-author">Jane Smith, Director of Operations</p>
+          </div>
+        </div>
+      </div>
     </section>
   </div>
   
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <ul class="list-inline mb-0">
-        <li class="list-inline-item">Follow Us:</li>
-        <li class="list-inline-item"><a href="#">Facebook</a></li>
-        <li class="list-inline-item"><a href="#">Twitter</a></li>
-        <li class="list-inline-item"><a href="#">Whatsap</a></li>
-        <li class="list-inline-item"><a href="#">Instagram</a></li>
-        <li class="list-inline-item"><a href="#">Discod</a></li>
-        <li class="list-inline-item"><a href="#">X</a></li>
-      </ul>
-      <p>&copy; 2024 Xaver Technologies. All rights reserved.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#industries">Industries</a></li>
+            <li><a href="#our-staff">Our Staff</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <p>&copy; 2024 XaverTek Technologies. All rights reserved.</p>
+        </div>
+      </div>
     </div>
   </footer>
   
-  <!-- jQuery and Bootstrap JS -->
+  <!-- jQuery and Bootstrap Bundle (includes Popper) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
   <!-- Custom JavaScript -->
   <script>
-    // Dark Mode Toggle Functionality
+    // Dark Mode Toggle
     const darkModeToggle = document.getElementById('darkModeToggle');
-    const body = document.body;
-
-    darkModeToggle.addEventListener('click', () => {
-      body.classList.toggle('dark-mode');
+    darkModeToggle.addEventListener('click', function() {
+      document.body.classList.toggle('dark-mode');
     });
 
-    // Scroll Animation
-    document.addEventListener('scroll', function() {
-      const elements = document.querySelectorAll('.fade-in');
-      elements.forEach(element => {
-        if (isElementInViewport(element)) {
-          element.classList.add('active');
-        }
-      });
-    });
-
-    function isElementInViewport(el) {
-      const rect = el.getBoundingClientRect();
-      return (
-        rect.top >= 0 &&
-        rect.left >= 0 &&
-        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-      );
-    }
-
-    // Smooth Scrolling for Navbar Links
-    document.querySelectorAll('a.nav-link').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-
-        const target = document.querySelector(this.getAttribute('href'));
-
-        window.scrollTo({
-          top: target.offsetTop - 50, // Adjust offset based on your navbar height
-          behavior: 'smooth'
-        });
-      });
-    });
-
-    // Form Submission Example (Replace with your own form handling)
+    // Form Submission
     const contactForm = document.getElementById('contactForm');
-
     contactForm.addEventListener('submit', function(event) {
       event.preventDefault();
-
       const formData = new FormData(contactForm);
       const name = formData.get('name');
       const email = formData.get('email');
       const message = formData.get('message');
+      // Replace with your email handling logic or API call
+      console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
+      alert('Message sent successfully!');
+      contactForm.reset();
+    });
 
-      // Example: Log form data to console
-      console.log(`Form submitted with Name: ${name}, Email: ${email}, Message: ${message}`);
+    // Image Lazy Loading
+    document.addEventListener("DOMContentLoaded", function() {
+      const lazyImages = document.querySelectorAll('img');
+      const options = {
+        rootMargin: '0px 0px 100px 0px', // Adjust as needed
+        threshold: 0.1
+      };
+      const observer = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            const src = img.getAttribute('data-src');
+            img.setAttribute('src', src);
+            observer.unobserve(img);
+          }
+        });
+      }, options);
 
-      // You can add AJAX submission or further processing here
-      // Example: Using fetch API for AJAX submission
-      /*
-      fetch('submit_contact_form.php', {
-        method: 'POST',
-        body: JSON.stringify({ name, email, message }),
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      })
-      .then(response => response.json())
-      .then(data => {
-        console.log('Success:', data);
-        // Optionally show success message or redirect
-      })
-      .catch((error) => {
-        console.error('Error:', error);
+      lazyImages.forEach(img => {
+        observer.observe(img);
       });
-      */
     });
   </script>
 </body>
