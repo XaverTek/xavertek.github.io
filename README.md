@@ -1,4 +1,5 @@
- html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -9,7 +10,7 @@
   <title>XaverTek Technologies</title>
   
   <!-- Bootstrap CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   
   <!-- Custom CSS -->
   <style>
@@ -53,6 +54,7 @@
       height: auto;
       margin-bottom: 20px;
     }
+
     /* Additional CSS Enhancements */
     .fade-in {
       opacity: 0;
@@ -67,30 +69,24 @@
       color: #17a2b8;
       background-color: transparent;
     }
-  .auto-style1 {
-	  border-style: solid;
-	border-width: 2px;
-	margin-left: 0px;
-	margin-bottom: 0px;
-}
   </style>
 </head>
 <body>
   
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation" style="left: -1px; right: 1px; top: 1px">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
     <div class="container">
       <a class="navbar-brand" href="#">XaverTek Technologies</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="height: 10px; width: 0px">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-        <a href="../../Desktop/New%20folder%20(3)/xav.jpg">
-        <img class="auto-style1" height="68" src="xav_small.jpg" width="87" xthumbnail-orig-image="../../Desktop/New folder (3)/xav.jpg"></a><div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>s
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
@@ -116,8 +112,9 @@
   <div class="container mt-5">
     <section id="home">
       <h1>Welcome to XaverTek Technologies</h1>
-      &nbsp;<p>Empowering Tomorrow's Innovations Today</p>
-      <p><img class="auto-style2" height="70" src="xav2.gif" width="1467">Welcome to Xaver Technologies, where innovation meets excloellence. We are at the forefront of cutting-edge technology solutions, dedicated to transforming industries and empowering businesses worldwide. Explore how our passion for innovation drives us to redefine what's possible in:</p>
+      <img src="image.png" class="company-logo" alt="Company Logo">
+      <p>Empowering Tomorrow's Innovations Today</p>
+      <p>Welcome to Xaver Technologies, where innovation meets excellence. We are at the forefront of cutting-edge technology solutions, dedicated to transforming industries and empowering businesses worldwide. Explore how our passion for innovation drives us to redefine what's possible in:</p>
       <ul>
         <li>Technology Solutions: Discover our comprehensive suite of products and services tailored to meet the needs of specific industries or clients.</li>
         <li>Quality Assurance: Our commitment to excellence ensures every solution we deliver meets the highest standards of quality and reliability.</li>
@@ -139,7 +136,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Technology Solutions</h5>
-              <p class="card-text">Explore our innovative techn0logy solutions designed to meet the unique needs of various industries.</p>
+              <p class="card-text">Explore our innovative technology solutions designed to meet the unique needs of various industries.</p>
             </div>
           </div>
         </div>
@@ -283,18 +280,20 @@
   </footer>
   
   <!-- jQuery and Bootstrap JS -->
-  <script src="jquery-3.5.1.slim.min.js"></script>
-  <script src="popper.min.js"></script>
-  <script src="bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
   <!-- Custom JavaScript -->
   <script>
     // Dark Mode Toggle Functionality
     const darkModeToggle = document.getElementById('darkModeToggle');
     const body = document.body;
+
     darkModeToggle.addEventListener('click', () => {
       body.classList.toggle('dark-mode');
     });
+
     // Scroll Animation
     document.addEventListener('scroll', function() {
       const elements = document.querySelectorAll('.fade-in');
@@ -304,6 +303,7 @@
         }
       });
     });
+
     function isElementInViewport(el) {
       const rect = el.getBoundingClientRect();
       return (
@@ -313,27 +313,35 @@
         rect.right <= (window.innerWidth || document.documentElement.clientWidth)
       );
     }
+
     // Smooth Scrolling for Navbar Links
     document.querySelectorAll('a.nav-link').forEach(anchor => {
       anchor.addEventListener('click', function(e) {
         e.preventDefault();
+
         const target = document.querySelector(this.getAttribute('href'));
+
         window.scrollTo({
           top: target.offsetTop - 50, // Adjust offset based on your navbar height
           behavior: 'smooth'
         });
       });
     });
+
     // Form Submission Example (Replace with your own form handling)
     const contactForm = document.getElementById('contactForm');
+
     contactForm.addEventListener('submit', function(event) {
       event.preventDefault();
+
       const formData = new FormData(contactForm);
       const name = formData.get('name');
       const email = formData.get('email');
       const message = formData.get('message');
+
       // Example: Log form data to console
       console.log(`Form submitted with Name: ${name}, Email: ${email}, Message: ${message}`);
+
       // You can add AJAX submission or further processing here
       // Example: Using fetch API for AJAX submission
       /*
@@ -355,6 +363,5 @@
       */
     });
   </script>
-  <p><img height="200" src="xav2.gif" width="1989"></p>
 </body>
 </html>
