@@ -1,14 +1,15 @@
+DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
- <meta name="google-site-verification" content="QV9mAbm9nMsPbrrtN4VnPTXW5G6Udv8MuIpKVtanr6s" />
+  <meta name="google-site-verification" content="MJMnAfVgR81kGnyH17HHRaPOqc2mtlJZm4FU1UzLwCw" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Xaver Technologies - Empowering Tomorrow's Innovations Today">
   <meta name="keywords" content="Xaver Technologies, technology solutions, innovation, quality assurance, global impact">
   <title>XaverTek Technologies</title>
   
   <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap.min.css" rel="stylesheet">
   
   <!-- Custom CSS -->
   <style>
@@ -52,7 +53,6 @@
       height: auto;
       margin-bottom: 20px;
     }
-
     /* Additional CSS Enhancements */
     .fade-in {
       opacity: 0;
@@ -67,31 +67,30 @@
       color: #17a2b8;
       background-color: transparent;
     }
-    .testimonial {
-      margin-bottom: 30px;
-    }
-    .carousel-item img {
-      width: 100%;
-      height: auto;
-    }
+  .auto-style1 {
+	  border-style: solid;
+	border-width: 2px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
   </style>
 </head>
 <body>
   
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation" style="left: -1px; right: 1px; top: 1px">
     <div class="container">
       <a class="navbar-brand" href="#">XaverTek Technologies</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="height: 10px; width: 0px">
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+        <a href="../../Desktop/New%20folder%20(3)/xav.jpg">
+        <img class="auto-style1" height="68" src="xav_small.jpg" width="87" xthumbnail-orig-image="../../Desktop/New folder (3)/xav.jpg"></a><div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#about">About</a>s
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#services">Services</a>
@@ -117,10 +116,8 @@
   <div class="container mt-5">
     <section id="home">
       <h1>Welcome to XaverTek Technologies</h1>
-      <img src="file:///C:/Users/YourUsername/Desktop/PIUS/XAVERTEK.PNG" class="company-logo" alt="Company Logo">
-
-      <p>Empowering Tomorrow's Innovations Today</p>
-      <p>Welcome to Xaver Technologies, where innovation meets excellence. We are at the forefront of cutting-edge technology solutions, dedicated to transforming industries and empowering businesses worldwide. Explore how our passion for innovation drives us to redefine what's possible in:</p>
+      &nbsp;<p>Empowering Tomorrow's Innovations Today</p>
+      <p><img class="auto-style2" height="70" src="xav2.gif" width="1467">Welcome to Xaver Technologies, where innovation meets excloellence. We are at the forefront of cutting-edge technology solutions, dedicated to transforming industries and empowering businesses worldwide. Explore how our passion for innovation drives us to redefine what's possible in:</p>
       <ul>
         <li>Technology Solutions: Discover our comprehensive suite of products and services tailored to meet the needs of specific industries or clients.</li>
         <li>Quality Assurance: Our commitment to excellence ensures every solution we deliver meets the highest standards of quality and reliability.</li>
@@ -132,9 +129,7 @@
     <section id="about">
       <h2>About Us</h2>
       <p>XaverTek Technologies is dedicated to delivering cutting-edge technology solutions that empower businesses and transform industries. Our commitment to innovation and quality assurance sets us apart, ensuring that every solution we deliver meets the highest standards of excellence.</p>
-    <p>Discover how we harness the power of technology to drive global impact, making a difference in businesses and communities worldwide.</p>
-    <p>More about the director of xavertek technologies.</p>
-    <p>In the vibrant town of Innovation Valley, nestled amidst rolling hills and lush greenery, lived a determined teenager named Chelangat Pius Starling. At the age of 17 and in Form Three of his schooling, Chelangat possessed a passion for technology that ignited his imagination far beyond the confines of his textbooks.Chelangat's journey began with a fascination for computers and electronics. From a young age, he spent hours tinkering with gadgets, exploring how they worked, and imagining ways to make them better. His bedroom became a makeshift workshop, filled with spare parts, wires neatly coiled, and the soft glow of computer screens late into the night.One fateful day, during a heated debate among classmates about the challenges they faced in accessing quality educational resources, Chelangat had a moment of inspiration,and he founded Xavertek Technologies from the confines of his secodary(Hilton High School). With his trusty  self-taught programming skills he learnt during lockdown,.Where the early days were filled with challenges. Balancing school assignments with coding marathons tested Chelangat's resolve, but his passion never waned. He enlisted the help of like-minded friends who shared his vision, pooling their talents in design, content creation, and marketing.As Xavertek Technologies took shape, its impact began to resonate. Chelangat's dedication and the platform's user-friendly interface garnered attention from students, educators, and parents alike. Soon, the user base grew exponentially, and Chelangat found himself managing a small but dedicated team of individuals who believed wholeheartedly in his mission.Word of Xavertek's success was founded from strugles. Chelangat is soon to be invited to speak at tech conferences and entrepreneurship seminars, where he shared his journey and inspired other young minds to pursue their dreams fearlessly. Investors took notice of the promising venture, offering funding to scale the platform and expand its reach globally.By the time Chelangat graduated from high school, Xavertek Technologies had become a household name in the educational technology sector. It wasn't just a platform anymore; it was a beacon of hope for students seeking quality education regardless of their background or location.Reflecting on his journey, Chelangat couldn't help but smile. What began as a teenage dream had blossomed into a thriving company that touched the lives of millions worldwide. As he looked toward the future, Chelangat knew that this was only the beginning—a beginning filled with endless possibilities and the promise of making education accessible to all.</p>
+      <p>Discover how we harness the power of technology to drive global impact, making a difference in businesses and communities worldwide.</p>
     </section>
     
     <section id="services">
@@ -144,7 +139,7 @@
           <div class="card">
             <div class="card-body">
               <h5 class="card-title">Technology Solutions</h5>
-              <p class="card-text">Explore our innovative technology solutions designed to meet the unique needs of various industries.</p>
+              <p class="card-text">Explore our innovative techn0logy solutions designed to meet the unique needs of various industries.</p>
             </div>
           </div>
         </div>
@@ -182,165 +177,154 @@
     </section>
     
     <section id="our-staff">
-        <h2>Our Staff</h2>
-        <div class="row">
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="staff1.jpg" class="card-img-top" alt="Staff Member">
-              <div class="card-body">
-                <h5 class="card-title">Chelangat Pius Starling</h5>
-                <p class="card-text">Position: Co-founder/Chief Executive Officer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="staff2.jpg" class="card-img-top" alt="Staff Member">
-              <div class="card-body">
-                <h5 class="card-title">Nsabimana Shadrach</h5>
-                <p class="card-text">Position: Senior Graphics Designer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="staff3.jpg" class="card-img-top" alt="Staff Member">
-              <div class="card-body">
-                <h5 class="card-title">Mazune Jessy</h5>
-                <p class="card-text">Position: Chief Technology Officer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="staff4.jpg" class="card-img-top" alt="Staff Member">
-              <div class="card-body">
-                <h5 class="card-title">Mukono Hillary</h5>
-                <p class="card-text">Position: Chief Operating Officer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="staff5.jpg" class="card-img-top" alt="Staff Member">
-              <div class="card-body">
-                <h5 class="card-title">Nanteza Sharifa</h5>
-                <p class="card-text">Position: Chief Financial Officer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="staff6.jpg" class="card-img-top" alt="Staff Member">
-              <div class="card-body">
-                <h5 class="card-title">Ssebata Aaron</h5>
-                <p class="card-text">Position: Marketing Executive Officer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="staff7.jpg" class="card-img-top" alt="Staff Member">
-              <div class="card-body">
-                <h5 class="card-title">Sanyu Martin Titus</h5>
-                <p class="card-text">Position: information and technology officer </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    
-    <section id="contact">
-      <h2>Contact Us</h2>
+      <h2>Our Staff</h2>
       <div class="row">
-        <div class="col-md-6">
-          <form id="contactForm" action="mailto:xavertekofficial@gmail.com" method="POST" enctype="text/plain">
-            <div class="form-group">
-              <label for="name">Name:</label>
-              <input type="text" class="form-control" id="name" name="name" required>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="staff1.jpg" class="card-img-top" alt="Staff Member">
+            <div class="card-body">
+              <h5 class="card-title">Chelangat Pius Starling</h5>
+              <p class="card-text">Position: Co-founder/Chief Executive Officer</p>
             </div>
-            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="message">Message:</label>
-              <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Send Message</button>
-          </form>
+          </div>
         </div>
-        <div class="col-md-6">
-          <h3>Visit Us</h3>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.423757842412!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zYOUR_LOCATION!5e0!3m2!1sen!2sus!4v1623801621902!5m2!1sen!2sus" 
-                  width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-
-                  find us in kampala {kololo york vile estate}
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="staff2.jpg" class="card-img-top" alt="Staff Member">
+            <div class="card-body">
+              <h5 class="card-title">Nsabimana Shadrach</h5>
+              <p class="card-text">Position: Senior Graphics Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="staff3.jpg" class="card-img-top" alt="Staff Member">
+            <div class="card-body">
+              <h5 class="card-title">Mazune Jessy</h5>
+              <p class="card-text">Position: Chief Technology Officer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="staff4.jpg" class="card-img-top" alt="Staff Member">
+            <div class="card-body">
+              <h5 class="card-title">Mukono Hillary</h5>
+              <p class="card-text">Position: Chief Operating Officer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="staff5.jpg" class="card-img-top" alt="Staff Member">
+            <div class="card-body">
+              <h5 class="card-title">Nanteza Sharifa</h5>
+              <p class="card-text">Position: Chief Financial Officer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="staff6.jpg" class="card-img-top" alt="Staff Member">
+            <div class="card-body">
+              <h5 class="card-title">Ssebata Aaron</h5>
+              <p class="card-text">Position: Marketing Executive Officer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img src="staff7.jpg" class="card-img-top" alt="Staff Member">
+            <div class="card-body">
+              <h5 class="card-title">Sanyu Martin Titus</h5>
+              <p class="card-text">Position: information and technology officer </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-  </div>
-  
-  <!-- Testimonials -->
-  <div class="container mt-5">
-    <section id="testimonials">
-      <h2>Client Testimonials</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="testimonial">
-            <blockquote>
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."
-            </blockquote>
-            <p class="testimonial-author">John Doe, CEO of Company X</p>
-          </div>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Get in touch with our team to learn more about our services and solutions.</p>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
         </div>
-        <div class="col-md-6">
-          <div class="testimonial">
-            <blockquote>
-              "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-            </blockquote>
-            <p class="testimonial-author">Jane Smith, Director of Operations</p>
-          </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
         </div>
-      </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
     </section>
   </div>
   
   <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#industries">Industries</a></li>
-            <li><a href="#our-staff">Our Staff</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6">
-          <p>&copy; 2024 XaverTek Technologies. All rights reserved.</p>
-        </div>
-      </div>
+      <ul class="list-inline mb-0">
+        <li class="list-inline-item">Follow Us:</li>
+        <li class="list-inline-item"><a href="#">Facebook</a></li>
+        <li class="list-inline-item"><a href="#">Twitter</a></li>
+        <li class="list-inline-item"><a href="#">Whatsap</a></li>
+        <li class="list-inline-item"><a href="#">Instagram</a></li>
+        <li class="list-inline-item"><a href="#">Discod</a></li>
+        <li class="list-inline-item"><a href="#">X</a></li>
+      </ul>
+      <p>&copy; 2024 Xaver Technologies. All rights reserved.</p>
     </div>
   </footer>
   
-  <!-- jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- jQuery and Bootstrap JS -->
+  <script src="jquery-3.5.1.slim.min.js"></script>
+  <script src="popper.min.js"></script>
+  <script src="bootstrap.min.js"></script>
   
   <!-- Custom JavaScript -->
   <script>
-    // Dark Mode Toggle
+    // Dark Mode Toggle Functionality
     const darkModeToggle = document.getElementById('darkModeToggle');
-    darkModeToggle.addEventListener('click', function() {
-      document.body.classList.toggle('dark-mode');
+    const body = document.body;
+    darkModeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
     });
-
-    // Form Submission
+    // Scroll Animation
+    document.addEventListener('scroll', function() {
+      const elements = document.querySelectorAll('.fade-in');
+      elements.forEach(element => {
+        if (isElementInViewport(element)) {
+          element.classList.add('active');
+        }
+      });
+    });
+    function isElementInViewport(el) {
+      const rect = el.getBoundingClientRect();
+      return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+    }
+    // Smooth Scrolling for Navbar Links
+    document.querySelectorAll('a.nav-link').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        window.scrollTo({
+          top: target.offsetTop - 50, // Adjust offset based on your navbar height
+          behavior: 'smooth'
+        });
+      });
+    });
+    // Form Submission Example (Replace with your own form handling)
     const contactForm = document.getElementById('contactForm');
     contactForm.addEventListener('submit', function(event) {
       event.preventDefault();
@@ -348,34 +332,29 @@
       const name = formData.get('name');
       const email = formData.get('email');
       const message = formData.get('message');
-      // Replace with your email handling logic or API call
-      console.log(`Name: ${name}, Email: ${email}, Message: ${message}`);
-      alert('Message sent successfully!');
-      contactForm.reset();
-    });
-
-    // Image Lazy Loading
-    document.addEventListener("DOMContentLoaded", function() {
-      const lazyImages = document.querySelectorAll('img');
-      const options = {
-        rootMargin: '0px 0px 100px 0px', // Adjust as needed
-        threshold: 0.1
-      };
-      const observer = new IntersectionObserver(function(entries, observer) {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const img = entry.target;
-            const src = img.getAttribute('data-src');
-            img.setAttribute('src', src);
-            observer.unobserve(img);
-          }
-        });
-      }, options);
-
-      lazyImages.forEach(img => {
-        observer.observe(img);
+      // Example: Log form data to console
+      console.log(`Form submitted with Name: ${name}, Email: ${email}, Message: ${message}`);
+      // You can add AJAX submission or further processing here
+      // Example: Using fetch API for AJAX submission
+      /*
+      fetch('submit_contact_form.php', {
+        method: 'POST',
+        body: JSON.stringify({ name, email, message }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Success:', data);
+        // Optionally show success message or redirect
+      })
+      .catch((error) => {
+        console.error('Error:', error);
       });
+      */
     });
   </script>
+  <p><img height="200" src="xav2.gif" width="1989"></p>
 </body>
 </html>
