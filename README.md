@@ -8,7 +8,15 @@
   <meta name="description" content="Xaver Technologies - Empowering Tomorrow's Innovations Today">
   <meta name="keywords" content="Xaver Technologies, technology solutions, innovation, quality assurance, global impact">
   <title>XaverTek Technologies</title>
-  
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "url": "https://xavertek.github.io",
+  "logo": "https://xavertek.github.io/image.png"
+}
+</script>
+
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   
