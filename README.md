@@ -1,6 +1,6 @@
 
 < html>
-<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <<meta name="google-site-verification" content="q1okTmytzTRDbQe-N2mksvSueTj6ju1bBtUiJ6qUs8k" />
